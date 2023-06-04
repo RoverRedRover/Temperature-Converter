@@ -162,7 +162,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "flask"
-version = "2.2.2"
+version = "2.2.5"
 description = "A simple framework for building complex web applications."
 category = "main"
 optional = false
@@ -571,7 +571,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "urllib3"
-version = "1.26.14"
+version = "1.26.16"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
 category = "main"
 optional = false
@@ -627,7 +627,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "7cf99c87ff2599c301b5d34b332a80553e87712a9219ac97c871509434c1844c"
+content-hash = "d26ddaf23f0ff9cd9b50f893b17afc98cbdb468c30b0eb30cde4f03919334f18"
 
 [metadata.files]
 aiohttp = []

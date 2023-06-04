@@ -7,8 +7,6 @@ authors = ["David Casson <dvcasson@outlook.com>"]
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
 replit = "^3.2.4"
-Flask = "^2.2.0"
-urllib3 = "^1.26.12"
 rich = "^13.4.1"
 
 [tool.poetry.dev-dependencies]
