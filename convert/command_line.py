@@ -14,11 +14,14 @@ def arguments() -> argparse.Namespace:
 
     subcommand_ftoc = subparsers.add_parser("f", help="Convert Fahrenheit to Celsius")
     subcommand_ftoc.add_argument(
-        "ftemp", help="Temperature in Fahrenheit degrees", type=float
+        "ftemp",
+        help="Temperature in Fahrenheit degrees",
+        type=float,
+        metavar="Fahrenheit",
     )
     subcommand_ctof = subparsers.add_parser("c", help="Convert Celsius to Fahrenheit")
     subcommand_ctof.add_argument(
-        "ctemp", help="Temperature in Celsius degrees", type=float
+        "ctemp", help="Temperature in Celsius degrees", type=float, metavar="Celsius"
     )
 
     return parser.parse_args()
